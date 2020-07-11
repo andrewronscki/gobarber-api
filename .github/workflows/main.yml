@@ -36,7 +36,7 @@ jobs:
         target: "~/app/gobarber-api"
      
    # Executar "yarn", migration do TypeORM e restartar node.js na Digital Ocean  
-    - name: Install dependencies on Digital Ocean
+    - name: Run production scripts
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.SSH_HOST }}
