@@ -19,4 +19,14 @@ Abrir navegador e digitar:
 
 #### `http://localhost:3333`
 
-## Necessário o PostgreSQL rodando na máquina.
+## Necessário o PostgreSQL rodando na máquina
+
+#### `docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres`
+
+## Necessário o MongoDB rodando na máquina
+
+#### `docker run --name mongodb -p 27017:27017 -d -t mongo`
+
+## Necessário o Redis rodando na máquina
+
+#### `docker run --name redis -p 6379:6379 -d -t redis:alpine`
